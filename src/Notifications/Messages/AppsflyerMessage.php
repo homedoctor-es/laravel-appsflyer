@@ -47,7 +47,7 @@ class AppsflyerMessage
      * @param string $platform
      * @param array $payload
      */
-    public function __construct($platform = null, array $payload = null)
+    public function __construct($platform = null, ?array $payload = null)
     {
         if ($platform) {
             $this->platform($platform);
